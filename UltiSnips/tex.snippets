@@ -17,6 +17,16 @@ snippet bbe "begin{} / end{}" bA
 \end{$1}
 endsnippet
 
+context "math()"
+snippet conjj "conjugate" iA
+\overline{$1}$0
+endsnippet
+
+context "math()"
+snippet kke "\ket{}" wA
+\ket{$1}$0
+endsnippet
+
 snippet itt "Italics" wA 
 \textit{$1}$0
 endsnippet
@@ -33,7 +43,7 @@ endsnippet
 snippet dm "Math" wA
 \[
 $1
-.\] $0
+\] $0
 endsnippet
 
 snippet '([A-Za-z])(\d)' "auto subscript" wrA
