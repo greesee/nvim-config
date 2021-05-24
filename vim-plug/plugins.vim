@@ -54,5 +54,7 @@ let g:ale_set_balloons=1
 "Syntax Checker
 Plug 'vim-syntastic/syntastic'
 
+"Startify
+Plug 'mhinz/vim-startify'
 
 call plug#end()
